@@ -15,6 +15,9 @@ public class Main {
             }
             System.out.println ("Even number: " + number);
             evenCount++;
+            if (evenCount >= 5) {
+                break;
+            }
         }
         System.out.println ("Total odd numbers found = " + oddCount);
         System.out.println ("Total even numbers found = " + evenCount);
